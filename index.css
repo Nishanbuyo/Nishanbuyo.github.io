@@ -1,0 +1,101 @@
+body{
+    background-image: linear-gradient(to left, rgba(48, 134, 150, 0.3), rgba(56, 167, 36, 0.4), rgba(255, 238, 0, 0.3));
+
+}
+
+header{
+    background-color: #96919181;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 4em;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+.wrapper{
+    align-content: center;
+    padding: 10px;
+    display: flex;
+
+
+}
+
+.left-sidebar{
+    float: left;
+    width: 68%;
+    background-color: azure;
+    padding: 10px;
+}
+
+.right-sidebar{
+    float: right;
+    width:28%;
+    margin-left: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.info{
+    
+    width: 100%;
+    background-color: rgb(187, 201, 201);
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info-info{
+    flex-grow: .6;
+    padding-left: 10px;
+}
+
+#bio{
+    width: 500px;
+
+    
+
+}
+
+.repos{
+    background-color: rgb(192, 191, 189);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    
+}
+
+.individual{
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+
+dt{
+    font-weight: bold;
+}
+
+dl{
+    border: 1px outset;
+    background-color: rgb(216, 224, 231);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 5px 10px #888888;
+}
