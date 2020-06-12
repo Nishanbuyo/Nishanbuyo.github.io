@@ -56,11 +56,15 @@ header{
     padding: 10px 0px;
     display: flex;
     flex-direction: row-reverse;
+    position: relative;
 }
 
 .info-info{
-    flex-grow: .6;
+    /* flex-grow: .6; */
+    width: 500px;
     padding-left: 10px;
+  
+    left: 0px;
 }
 
 #bio{

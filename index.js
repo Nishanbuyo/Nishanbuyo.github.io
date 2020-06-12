@@ -4,7 +4,8 @@ fetch("https://api.github.com/users/Nishanbuyo")
     .then(response => response.json())
     .then(function (data) {
         console.log(data)
-        repo_url = data['repos_url']
+        repo_url = data['repos_url']+"?page=1&per_page=100";
+        console.log(repo_url)
         document.getElementById('avatar').src = data['avatar_url']
         document.getElementById('fullName').textContent = data['name']
         document.getElementById('githubLink').href = data['html_url']
