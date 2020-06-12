@@ -60,15 +60,13 @@ header{
 }
 
 .info-info{
-    /* flex-grow: .6; */
-    width: 500px;
-    padding-left: 10px;
+
+    padding-left: 50px;
   
-    left: 0px;
 }
 
 #bio{
-    width: 500px;
+    width: 70%
 
     
 
@@ -103,3 +101,11 @@ dl{
     text-align: left;
     box-shadow: 5px 10px #888888;
 }
+
+/* @media screen and (max-width: 600px) {
+    .info-info{
+        width: 25%;
+    }
+
+  } */
+
